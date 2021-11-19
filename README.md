@@ -91,3 +91,4 @@ On the host computer: run `./sink-gst.sh` also with appropriate flags
 ## Troubleshooting
 - MAKE SURE PORTS ARE OPEN
 - IP addresses are both pointing to topside computer
+- The RPi is not discoverable over UCLA Wifi or eduroam
