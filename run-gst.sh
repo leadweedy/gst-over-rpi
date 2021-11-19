@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# set internal IP of platform
+# ip address of topside computer
 IP=192.168.1.102
 PORT=8080
 VIDEO=/dev/video0

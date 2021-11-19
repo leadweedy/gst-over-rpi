@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# set internal IP of platform
+# IP address of topside computer
 IP=192.168.1.102
 PORT=8080
 
@@ -30,7 +30,7 @@ CLOCK=
 
 
 # adds input flags for more options
-while getopts :p:F:c option
+while getopts :i:p:F:c option
 do
     case "$option" in
     i)
