@@ -34,7 +34,7 @@ Application Options:
 
 
 ## Hardware Setup
-![RPi wiring diagram]()
+![RPi wiring diagram](https://github.com/leadweedy/gst-over-rpi/blob/main/images/gst%20wiring%20diagram.png?raw=true)
 
 Port [1] on the Pi Zero provides data+power, Port [2] provides power only. Connect the USB cable from Port [1] to the main Pi. Connect the Pi to the topside computer using ethernet. 
 
