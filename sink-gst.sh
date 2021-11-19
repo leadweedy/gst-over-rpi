@@ -6,8 +6,8 @@ PORT=8080
 
 #resolution to rescale to
 #any values are okay
-WIDTH_OUT=800
-HEIGHT_OUT=600
+WIDTH_OUT=720
+HEIGHT_OUT=540
 
 
 
@@ -93,7 +93,7 @@ if [ "$FORMAT" = 'h264' ]; then
 ## MJPG
 elif [ "$FORMAT" = 'MJPG' ]; then
     gst-launch-1.0 -v -e udpsrc uri=udp://$IP:$PORT ! \
-    application/x-rtp,encoding-name=JPEG,payload=26 ! rtpjpegdepay ! \
+    application/x-rtp,encoding-name=JPEG,payload=26 ! rtpjpegdepay ! queue ! \
     jpegdec ! videoconvert ! videoscale ! video/x-raw $RESCALE ! $CLOCK  \
     autovideosink
         

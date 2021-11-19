@@ -5,10 +5,11 @@ IP=192.168.1.102
 PORT=8080
 VIDEO=/dev/video0
 
-#desired resolution of video stream from camera
-#must be explicitly supported or pipeline fails
-WIDTH_IN=800
-HEIGHT_IN=600
+# desired resolution of video stream from camera
+# must be explicitly supported or pipeline fails
+# run ``v4l2-ctl --list-formats-ext /dev/video0`` to get list of resolutions
+WIDTH_IN=640
+HEIGHT_IN=480
 FPS_IN=30
 
 
