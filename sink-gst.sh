@@ -55,7 +55,7 @@ do
         echo "Application Options:"
         echo "  -i <#.#.#.#>            IP address of the recieving computer"
         echo "  -p <#>                  Port number [default:8080]"
-        echo "  -F <h264 or MJPG>       Select stream format [default:h264]"
+        echo "  -F <h264 or MJPG>       Select stream format [default:MJPG]"
         echo "  -c                      Enables clock overlay [default:off]"
         echo ""
         exit

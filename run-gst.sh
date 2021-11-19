@@ -73,7 +73,7 @@ do
         echo "  -p <#>                  Port number [default:8080]"
         echo "  -v </dev/video#>        Video source, e.g. /dev/video0"
         echo "  -f </file/path>         Enables streaming from a video file"
-        echo "  -F <h264 or MJPG>       Select stream format [default:h264]"
+        echo "  -F <h264 or MJPG>       Select stream format [default:MJPG]"
         echo "  -e <CPU or GPU>         Chooses between vaapi (GPU) or software (CPU) encoding,"
         echo "                          only valid for h264 [default:CPU]"
         echo ""
