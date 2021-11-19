@@ -1,4 +1,5 @@
 # gst-over-rpi
+Passes a simple camera feed remotely over UDP on a local network. Built for and tested on Raspberry Pi hardware. 
 
 `./run-gst.sh`
 ```
