@@ -1,4 +1,5 @@
 # gst-over-rpi
+Passes a simple camera feed remotely over UDP on a local network using [GStreamer](https://gstreamer.freedesktop.org/). Built for and tested on Raspberry Pi hardware. 
 
 `./run-gst.sh`
 ```
@@ -79,6 +80,8 @@ On the host computer, do the same and run
 `cd gst-over-rpi/`
 
 `chmod +x ./*`
+
+To update, delete the directory and redownload it using the `git clone` command.
 
 ## Running the Code
 On the RPi: run `./run-gst.sh` with the appropriate flags.
