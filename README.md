@@ -81,6 +81,8 @@ On the host computer, do the same and run
 
 `chmod +x ./*`
 
+To update, delete the directory and redownload it using the `git clone` command.
+
 ## Running the Code
 On the RPi: run `./run-gst.sh` with the appropriate flags.
 
