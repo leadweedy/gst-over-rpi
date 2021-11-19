@@ -20,8 +20,8 @@ FPS_IN=30
 # h264 encoder defaults to software encoding
 H264=x264enc
 
-# streaming format defaults to h264
-FORMAT=h264
+# streaming format defaults to MJPG
+FORMAT=MJPG
 
 #format depends on what the camera outputs
 FORMAT=YUY2

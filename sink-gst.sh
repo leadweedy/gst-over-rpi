@@ -18,7 +18,7 @@ CAPS="application/x-rtp,media=(string)video,encoding-name=(string)H264,clock-rat
 #passed to videoscale module to resize the stream w/ bilinear filter
 RESCALE=",width=$WIDTH_OUT,height=$HEIGHT_OUT"
 
-FORMAT=h264
+FORMAT=MJPG
 
 #clockoverlay adds timestamp to corner of video
 # default = off
