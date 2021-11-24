@@ -35,6 +35,9 @@ Application Options:
 
 
 ## Hardware Setup
+
+Flash Raspberry Pi OS to a microSD card or USB drive using [RPI Imager](https://www.raspberrypi.com/software/). The Lite version of the OS is recommmended, as no graphical interface will be needed. Before flashing, press `Ctrl+Shift+X` to open the advanced settings of the Imager. Enable `SSH` and set the hostname to something memorable, such as `ebay.local`.
+
 ![RPi wiring diagram](https://github.com/leadweedy/gst-over-rpi/blob/main/images/gst%20wiring%20diagram.png?raw=true)
 
 Port [1] on the Pi Zero provides data+power, Port [2] provides power only. Connect the USB cable from Port [1] to the main Pi. Connect the Pi to the topside computer using ethernet. 
