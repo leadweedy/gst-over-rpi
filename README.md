@@ -67,7 +67,9 @@ Run `v4l2-ctl --list-formats-ext -d /dev/video#` to check the possible resolutio
 ## Downloading the Code
 Download these files to the RPi (while it is connected to the internet) by running
 
-`git clone https://github.com/leadweedy/gst-over-rpi.git`.
+`git clone https://github.com/leadweedy/gst-over-rpi.git`
+
+or downloading to the topside computer (if RPI is without internet) and copying the directory to the PI using [SCP/SFTP](https://wiki.archlinux.org/title/SCP_and_SFTP).
 
 Then move into the directory with the files and ensure they are all executable:
 
