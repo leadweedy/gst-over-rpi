@@ -60,7 +60,7 @@ Ensure the system is up to date and has all the required packages installed to r
 
 `sudo apt install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-pulseaudio` [[1]](https://gstreamer.freedesktop.org/documentation/installing/on-linux.html?gi-language=c#install-gstreamer-on-ubuntu-or-debian)
 
-Check that the camera(s) are properly connected by running `v4l2-ctl --list-devices`. The camera should show up as `UVC Camera Raspberry Pi` or something similar. It will also provide a path to access the camera in the form of `/dev/video#`.
+Check that the camera(s) are properly connected by running `v4l2-ctl --list-devices`. The camera should show up as `Piwebcam : UVC Camera`. It will also provide a path to access the camera in the form of `/dev/video#`.
 
 Run `v4l2-ctl --list-formats-ext -d /dev/video#` to check the possible resolutions. 
 
