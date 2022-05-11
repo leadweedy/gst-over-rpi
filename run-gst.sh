@@ -10,7 +10,7 @@ VIDEO=/dev/video0
 # run ``v4l2-ctl --list-formats-ext /dev/video0`` to get list of resolutions
 WIDTH_IN=640
 HEIGHT_IN=480
-FPS_IN=30
+FPS_IN=60
 
 
 
@@ -24,7 +24,7 @@ H264=x264enc
 FORMAT=MJPG
 
 #format depends on what the camera outputs
-FORMAT=YUY2
+#FORMAT=YUY2
 
 #used to ingest a video source (e.g. webcam)
 SOURCE="v4l2src device"
